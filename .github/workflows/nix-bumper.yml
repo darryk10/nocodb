@@ -10,7 +10,7 @@ on:
 
 jobs:
   bumper:
-    runs-on: nix
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
